@@ -1,10 +1,44 @@
 /******************************
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
+function isItLong(long){
+  if(long.length > 20){
+    return "That's a long string!"
+  }
+}
 
+function isItMedium(medium){
+  if (medium.length >= 10 && medium.length <= 20){
+  return "That's a regular sized string!"
+  }
+}
 
+function isItShort(shorty){
+  if(shorty.length < 10){
+    return "That's a small string!"
+  }
+  return "That's not a small string!"
+}
 
+function howLongIsMyString(how){
+  if(how.length > 20){
+    return "That's a long string!"
+  }
+  else if(how.length <= 20 && how.length >=10){
+    return "That's a regular sized string!"
+  }
+  return "That's a small string!"
+}
 
+function instructorHeight(height){
+  if(height === 'Colin'){
+    return 62
+  }
+  if(height === 'Mesuara'){
+    return 67
+  }
+  return "I don't know that instructor!"
+}
 
 
 /**********************************
